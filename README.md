@@ -31,14 +31,38 @@ This repository contains the complete quality assurance documentation and manual
 
 ```
 ├── README.md                                  # Repository overview and portfolio landing page
+├── app.py                                     # Live runnable Web Portal application (Flask)
+├── run_test_suite.py                          # Automated test execution script (15 test cases)
+├── generate_csv.py                            # Automation script to generate the CSV test suite
 ├── Test_Plan_Document.md                      # Comprehensive IEEE 829 Master Test Plan
 ├── Test_Case_Suite.csv                        # 46 Granular Test Cases (Excel/Google Sheets Ready)
 ├── Test_Case_Suite.md                         # Detailed Test Cases in Markdown Tables
 ├── Requirements_Traceability_Matrix_RTM.md    # Bidirectional Traceability Matrix (100% coverage)
 ├── Defect_Reporting_Template_and_Bug_Lifecycle.md # Bug Life Cycle, Template & 3 Sample Defects
-├── README_Internship_Submission_Guide.md      # Submission Guide & Viva Interview Preparation
-└── generate_csv.py                            # Automation script to regenerate the CSV test suite
+└── README_Internship_Submission_Guide.md      # Submission Guide & Viva Interview Preparation
 ```
+
+---
+
+## ⚡ How to Execute the Code
+
+This project provides **both a live test application** and an **automated test runner**:
+
+### 1. Launch the Live Web Portal for Manual Testing
+To manually test and demonstrate the portal in your browser:
+```bash
+python app.py
+```
+* **URL:** `http://127.0.0.1:5000`
+* **Standard User Account:** `john.doe@example.com` / `Secure@2026!`
+* **SuperAdmin Account:** `admin.test@example.com` / `AdminSecure@2026!`
+
+### 2. Run the Automated Test Suite (Terminal Runner)
+To run automated verification of the test cases directly in your terminal:
+```bash
+python run_test_suite.py
+```
+* Runs 15 automated test cases in $< 0.2$ seconds with color-coded CLI pass/fail reporting!
 
 ---
 
