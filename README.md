@@ -1,4 +1,4 @@
-# 🚀 Enterprise Web Portal - Manual Test Plan & Test Case Suite
+# 🚀  Web Portal - Manual Test Plan & Test Case Suite
 > **Task 1: Software Quality Assurance Internship Deliverable**  
 > *A comprehensive, industry-standard manual QA suite adhering to IEEE 829 standards.*
 
@@ -174,7 +174,7 @@ The project implements a complete **Defect Life Cycle** with Jira-style bug logg
 
 ## 👩‍💻 Author & Acknowledgements
 
-* **Author:** Sindhushree T B
+* **Author:** Admin
 * **Role:** QA Intern (Software Quality Assurance)
 * **Internship Track:** Task 1 - Manual Testing & Quality Assurance
 * **Supervised By:** QA Lead & Internship Mentors
