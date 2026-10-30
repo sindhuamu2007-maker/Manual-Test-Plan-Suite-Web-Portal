@@ -172,12 +172,6 @@ The project implements a complete **Defect Life Cycle** with Jira-style bug logg
 
 ---
 
-## 👩‍💻 Author & Acknowledgements
-
-* **Author:** Admin
-* **Role:** QA Intern (Software Quality Assurance)
-* **Internship Track:** Task 1 - Manual Testing & Quality Assurance
-* **Supervised By:** QA Lead & Internship Mentors
 
 ---
 *⭐ If you find this QA test documentation useful, feel free to star this repository!*
