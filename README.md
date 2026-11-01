@@ -1,10 +1,10 @@
-# 🚀  Web Portal - Manual Test Plan & Test Case Suite
+#  Web Portal - Manual Test Plan & Test Case Suite
 > **Task 1: Software Quality Assurance Internship Deliverable**  
 > *A comprehensive, industry-standard manual QA suite adhering to IEEE 829 standards.*
 
 ---
 
-## 📌 Badges & Project Highlights
+##  Badges & Project Highlights
 
 ![QA Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge&logo=checkmarx)
 ![Standards](https://img.shields.io/badge/Standard-IEEE%20829-blue?style=for-the-badge)
@@ -14,11 +14,11 @@
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 
 This repository contains the complete quality assurance documentation and manual test suite for an **Enterprise Web Portal**. The objective of this project is to simulate real-world QA engineering practices by establishing full test coverage, verifying functional and non-functional requirements, identifying edge cases, and establishing bidirectional traceability.
 
-### 🌟 Key Quality Highlights
+###  Key Quality Highlights
 * **IEEE 829 Compliant Test Plan:** Formal test strategy covering scope, environment matrix, RACI, entry/exit criteria, and risk mitigation.
 * **46 Granular Test Cases:** Spans Positive, Negative, Boundary Value Analysis (BVA), Equivalence Class Partitioning (ECP), and Security testing.
 * **100% Requirements Traceability:** 28 core requirements mapped 1:1 with scenarios and test cases in the RTM.
@@ -27,7 +27,7 @@ This repository contains the complete quality assurance documentation and manual
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 ├── README.md                                  # Repository overview and portfolio landing page
@@ -44,7 +44,7 @@ This repository contains the complete quality assurance documentation and manual
 
 ---
 
-## ⚡ How to Execute the Code
+##  How to Execute the Code
 
 This project provides **both a live test application** and an **automated test runner**:
 
@@ -66,7 +66,7 @@ python run_test_suite.py
 
 ---
 
-## 📊 Test Case Suite Distribution
+##  Test Case Suite Distribution
 
 ```mermaid
 pie title Test Case Distribution by Category
@@ -91,7 +91,7 @@ pie title Test Case Distribution by Category
 
 ---
 
-## 🧪 Modules Tested
+##  Modules Tested
 
 ### 1. User Authentication & Authorization (AUTH)
 * Valid / Invalid credentials authentication
@@ -147,7 +147,7 @@ pie title Test Case Distribution by Category
 
 ---
 
-## 🐞 Defect Management
+##  Defect Management
 
 The project implements a complete **Defect Life Cycle** with Jira-style bug logging. Below is an excerpt of real-world defects discovered during test execution:
 
@@ -159,7 +159,7 @@ The project implements a complete **Defect Life Cycle** with Jira-style bug logg
 
 ---
 
-## 💡 How to Use the Test Case Suite
+##  How to Use the Test Case Suite
 
 ### In Microsoft Excel or Google Sheets:
 1. Download or open [`Test_Case_Suite.csv`](./Test_Case_Suite.csv).
